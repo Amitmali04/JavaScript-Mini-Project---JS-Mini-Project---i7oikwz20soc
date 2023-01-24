@@ -1,1 +1,37 @@
 
+b{
+    font-size :16px;
+    }
+    h6{
+    color:red;
+    }
+    div{
+    margin-bottom: 1.5em;
+    }
+    #email,#pass{
+    max-width: 240px;
+    }
+    .validation{
+    color:red;
+    font-size: 10px;
+    margin-bottom:-1.5em;
+    text-align:left;
+    }
+    .input_error{
+    border: 2px solid red;
+    }
+    form{
+    margin-top:10em;
+    }
+    @media only screen and (min-width:900px){
+    form{
+    margin-top:12em;
+    margin-left:30em;
+    }
+    }
+    @media only screen and (min-width:600px) and (max-width:900px){
+    form{
+    margin-top:12em;
+    margin-left:12em;
+    }
+    }
